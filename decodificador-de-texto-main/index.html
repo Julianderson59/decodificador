@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+    <header class="cabeca">
+            <img class="logo" src="Logo.png" alt="logo">
+    </header>
+
+    <main class="">
+
+
+        <div class="container">
+
+
+                <textarea class="encrypt textarea1" id="input-text" name="input-text" rows="5" cols="50" placeholder="Digite seu texto:"></textarea>
+                <p class="gray-400 adv" id="adv"><span class="icon warning" id="icon">&#33;</span> Apenas letras minúsculas e sem acento.</p>
+                <div class="bottont">
+
+                    <button class="bottons darkblue-300" id="encrypt-btn">Criptografar</button>
+                    <button class="bottons blue" id="decrypt-btn">Descriptografar</button>
+                 </div>
+
+
+        </div>
+
+        <div class=" container decrypt margin-left ">
+            <span class="mbt" id="msgadv">
+                <img class="imagem" src="High quality products 1 1.png" alt="menino olhando um diamante com uma lupa">
+                <p class="msg1 gray-500">Nenhuma mensagem <br> encontrda</p>
+                <p class="msg2 gray-400">Digite um texto que você deseja <br> criptografar ou descriptografar</p>
+            </span>
+
+            <textarea class="textarea2" id="output-text" name="output-text" rows="5" cols="50" readonly></textarea>
+            <button class="mc bottons blue" id="copy">Copiar</button>
+        </div>
+
+
+    </main>
+    <footer class="mb">
+        <!-- <p>Desenvolvido por Augusto Xavier</p> -->
+        <p class="tex">© 2023 Desenvolvido por <a href="mailto:augustox10@gmail.com?subject=Questions" title="">Augusto Xavier</a> | v1.0.0</p>
+    </footer>
+
+</body>
+<script src="index.js"></script>
+</html>
